@@ -1,7 +1,7 @@
 import dvc.api as dvc
 import pandas as pd
 import sklearn
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
 import pickle
 # from joblib import dump, load
 
@@ -17,7 +17,7 @@ test.to_csv(path_or_buf='../data/preprocessed/test.csv')
 labels = train.pop('Class')
 test_label = test.pop('Class')
 
-decision_tree = DecisionTreeClassifier(
+decision_tree = RandomForestClassifier(
     random_state=0, max_depth=4, criterion="entropy")
 
 decision_tree = decision_tree.fit(train, labels)
