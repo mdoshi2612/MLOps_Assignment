@@ -1,0 +1,4 @@
+outs:
+- md5: 54e0c2ad9ffa449849a6c8152c9fb917
+  size: 1542044
+  path: Assignment3_model.pkl
