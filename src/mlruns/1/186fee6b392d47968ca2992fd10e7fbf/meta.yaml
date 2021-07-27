@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Manav%20Doshi/Documents/LS%202021%20Assignments/Fundamentals%20of%20MLOps/mlops_assignment/src/mlruns/1/186fee6b392d47968ca2992fd10e7fbf/artifacts
+end_time: 1627384718937
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 186fee6b392d47968ca2992fd10e7fbf
+run_uuid: 186fee6b392d47968ca2992fd10e7fbf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1627384717045
+status: 3
+tags: []
+user_id: Manav Doshi
